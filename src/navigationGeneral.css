@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 3rem;
+
+  overflow-x: hidden; /* Prevents horizontal overflow */
+}
+
+/* Ensure logo and text do not exceed container width */
+.logoImage {
+  max-width: 100%;
+  height: auto;
+  width: 150px;
+}
+
+.navText {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navText {
+    font-size: 1.5rem;
+  }
+
+  .logoImage {
+    width: 120px;
+  }
+
+  .nav {
+    padding: 10px 1.5rem;
+  }
+}

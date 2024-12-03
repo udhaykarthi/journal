@@ -1,0 +1,120 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  min-width: 20%;
+  max-width: 400px;
+  flex-direction: column;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.login label {
+  color: #ffffff;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.input input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.login button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #feb47b;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.text {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+.text span a {
+  color: #ff7e5f;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.text span a:hover {
+  color: #feb47b;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .login {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .input input {
+    padding: 10px;
+  }
+
+  .login button {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .input input {
+    padding: 12px;
+  }
+
+  .login button {
+    padding: 14px;
+    font-size: 14px;
+  }
+}

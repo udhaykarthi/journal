@@ -1,0 +1,114 @@
+.container {
+  width: 100vw;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+}
+
+.CreateNew {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  min-width: 20%;
+  max-width: 400px;
+  flex-direction: column;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+  gap: 1rem;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropzone.dragging {
+  background-color: #f0f0f0;
+}
+
+.file-input-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #feb47b, #ff7e5f);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #feb47b;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .CreateNew {
+    width: 80%;
+    padding: 20px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+  }
+
+  button[type="submit"] {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .CreateNew {
+    width: 90%;
+    padding: 15px;
+  }
+
+  input[type="text"] {
+    padding: 12px;
+  }
+
+  button[type="submit"] {
+    padding: 14px;
+    font-size: 14px;
+  }
+}
