@@ -24,8 +24,8 @@ app.use('imagesjr', express.static(path.join(__dirname, 'public/imagesjr')));
 const db = mysql.createPool({
   host: "localhost",
   user: "root",
-  password: "KarthiK7775",
-  database: "journal",
+  password: "",//enter your database password
+  database: "",//enter your database name
   connectionLimit: 10,
 });
 
