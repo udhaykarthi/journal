@@ -11,7 +11,7 @@ This was inspired by **Google Jamboard** which was stopped after October 2025
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Frontend:**  
 - React  
