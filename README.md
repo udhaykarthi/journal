@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 📝 Journal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Journal** is a web-based journaling app designed for organizing your thoughts, tasks, or daily logs — much like Google Jamboard, but simplified for personal productivity through writing.
 
-## Available Scripts
+This was inspired by **Google Jamboard** which was stopped after October 2025
 
-In the project directory, you can run:
+- Add, edit, and delete journal entries
+- Organize your daily notes or project thoughts
+- Simple and distraction-free interface
+- Designed as a full-stack demo project
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Frontend:**  
+- React  
+  
+**Backend:**  
+- Node.js  
+- Express.js  
+- SQL (MySQL)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Create new journal entries with timestamps
+- Edit/update entries in-place
+-  Delete entries permanently
+-  All entries stored securely in a SQL database
+-  REST API for journal operations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ScreenShorts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Login
+![image](https://github.com/user-attachments/assets/62d797b0-6982-4008-8c82-ea593503caf0)
 
-### `npm run eject`
+### Signup Page
+![image](https://github.com/user-attachments/assets/3606f87d-e257-4471-84e5-9b471cb1ed12)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Creation Page
+![image](https://github.com/user-attachments/assets/edf43f95-faa2-4e3f-8f36-d71654cfe6a4)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Lobby
+![image](https://github.com/user-attachments/assets/879cbb46-1a26-4fab-8bbd-ad2889ad7f53)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## What I learnt
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- SQL and MERN stack integartion
+- Server side Communication with frontend
 
-## Learn More
+## Demo
+Since I haven't hosted on any platforms or sites heres the video demo of it [here](https://drive.google.com/file/d/1lCTUftepvyF9om_Xx0k_Wac5Kxg7y8s9/view?usp=sharing)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Proof
+I have developed this project during **October - Novemner 2024**
+![WhatsApp Image 2025-07-08 at 23 17 41_2a7e67fa](https://github.com/user-attachments/assets/09ef33ce-8de2-43ee-86e6-46049657e4ae)
